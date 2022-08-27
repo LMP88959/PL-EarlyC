@@ -2,21 +2,25 @@
 Early C 3D Software Renderer Public Domain Source Release by EMMIR 2018-2022
 ==============================================================================
 
-<video src='demo88.mp4' width=640/>
+
+
+https://user-images.githubusercontent.com/109979235/187040347-88be4944-57c3-4c76-b37b-a5f1a0cef786.mp4
+
+
 
 The code here is an early C implementation of PiSHi LE.
 PiSHi LE is a subset of the integer-only 3D graphics library used
 in King's Crook, a software rendered game.
 
 ==============================================================================
+
 General Info:
-==============================================================================
 
 This code is written for an early C compiler for the Motorola 68000 processor.
 (an old version of the Portable C Compiler from around 1981).
 Along with an assembler and linker from the same time period.
 -- Side note: even though the Portable C Compiler supports the void type,
-    structure assignment, and enums, I don't use them in this code.
+structure assignment, and enums, I don't use them in this code.
 
 I modified the compiler a bit to add special handling for inline ASM and
 interrupt service routines.
@@ -36,8 +40,8 @@ operations where necessary to improve speed since the 68000 does not support
 hardware 32-bit math operations.
 
 ==============================================================================
+
 Purpose:
-==============================================================================
 
 Seeing how C looked back in its early days.
 Learning about the interesting features of early C.
@@ -67,8 +71,8 @@ Main things to notice are:
    ```
 
 ==============================================================================
+
 Feature List:
-==============================================================================
 
 - N-gon rendering (not limited to triangles)
 - Depth (Z) buffering
@@ -83,9 +87,11 @@ Feature List:
 - Indexed or true color rendering
 
 ==============================================================================
+
 External Resources:
-==============================================================================
+
 https://spin0r.wordpress.com/2014/11/21/kr-c/
+
 https://news.ycombinator.com/item?id=10165007
 
 
