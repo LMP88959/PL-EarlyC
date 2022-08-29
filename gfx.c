@@ -226,7 +226,7 @@ int *stream;
         len  = x_R[miny] - beg;
         yt   = (miny << ATTRB);
         sz   = abuf[yt];
-        dz   = (short)((abuf[yt + 1] - sz) * iv15[len]) >> 15;
+        dz   = (short)(abuf[yt + 1] - sz) * iv15[len] >> 15;
 
         do {
             if (*zbuf < sz) {
