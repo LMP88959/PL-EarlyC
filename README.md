@@ -12,6 +12,9 @@ The code here is an early C implementation of PiSHi LE.
 PiSHi LE is a subset of the integer-only 3D graphics library used
 in King's Crook, a software rendered game.
 
+Check out the real time version here:
+https://github.com/LMP88959/PL-68000
+
 ## General Info:
 
 This code is written for an early C compiler for the Motorola 68000 processor.
